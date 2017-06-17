@@ -1,0 +1,3 @@
+#!/bin/sh
+LANG=C	export LANG
+exec egrep '^0000040[[:space:]]' -- $@
